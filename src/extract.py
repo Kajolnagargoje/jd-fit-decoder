@@ -56,7 +56,7 @@ def call_llm(prompt: str) -> str:
     client = anthropic.Anthropic()
     response = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
+        max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
     return response.content[0].text
@@ -103,6 +103,30 @@ def check_quotes_verbatim(extraction: dict, jd_text: str) -> list:
             )
 
     return warnings
+
+
+def extract_from_jd_text(jd_text: str) -> dict:
+    """Extract requirements from raw JD text (used by web interface).
+    Same logic as extract_from_jd but accepts text directly instead of a file path."""
+    schema = load_schema()
+    prompt = build_prompt(jd_text, schema)
+    raw_response = call_llm(prompt)
+    cleaned = strip_markdown_fences(raw_response)
+
+    try:
+        extraction = json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"LLM did not return valid JSON: {e}")
+
+    try:
+        validate(instance=extraction, schema=schema)
+    except ValidationError as e:
+        raise ValueError(f"LLM output failed schema validation: {e}")
+
+    quote_warnings = check_quotes_verbatim(extraction, jd_text)
+    extraction["_quote_check_warnings"] = quote_warnings
+
+    return extraction
 
 
 def extract_from_jd(jd_path: Path) -> dict:
