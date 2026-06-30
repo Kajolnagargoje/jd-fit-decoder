@@ -1,0 +1,33 @@
+Product Manager — Growth (EdTech SaaS)
+Location: Dublin, Ireland (Hybrid, 3 days/week in office)
+
+About Us
+We're a fast-growing EdTech SaaS platform serving 2M+ learners across Europe.
+We're looking for a Product Manager to join our Growth team and own the
+onboarding and activation experience.
+
+What You'll Do
+- Own the product roadmap for onboarding, activation, and early retention
+- Define and track success metrics (activation rate, time-to-value, D7/D30 retention)
+- Run A/B tests and translate results into prioritized backlog items
+- Partner closely with Engineering, Design, and Data teams
+- Write clear PRDs and user stories with well-defined acceptance criteria
+- Present roadmap and results to senior leadership monthly
+
+What We're Looking For
+- 3+ years of product management experience, ideally in SaaS or EdTech
+- Strong analytical skills; comfortable working with SQL and dashboarding tools
+- Proven track record of running experiments (A/B testing) and driving measurable
+  improvements in activation or retention metrics
+- Excellent written and verbal communication skills
+- Experience with Agile/Scrum methodologies; CSPO or similar certification a plus
+- Bachelor's degree required; Master's in a quantitative field is a bonus
+- Must be eligible to work in Ireland without sponsorship
+
+Nice to Have
+- Experience with tools like Amplitude, Mixpanel, or similar product analytics platforms
+- Background in B2C subscription products
+- Familiarity with AI/ML-powered personalization features
+
+We move fast and wear many hats — you'll need to be comfortable with ambiguity
+while also bringing rigorous process and structure to a scaling team.

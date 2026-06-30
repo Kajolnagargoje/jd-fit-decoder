@@ -1,0 +1,85 @@
+Sr Product Manager
+Requisition number: 2345945
+Job category: Product
+Primary location: Dublin, Leinster
+Date posted: 06/19/2026
+Overtime status: Exempt
+Travel: No
+
+Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by diversity and inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the communities we serve as you help us advance health equity on a global scale. Join us to start Caring. Connecting. Growing together.
+
+The Senior Product Manager is a strategic product leader responsible for defining and executing the product strategy for one of Optum Payment Integrity's Claim Review products. These products are widely adopted in the market and provide an opportunity to quickly scale new value from product innovation. Optum Payment Integrity helps health plans and healthcare organizations ensure claims are paid accurately and fairly, reducing unnecessary medical spend across the full claim lifecycle through a combination of advanced analytics, AI, and deep healthcare reimbursement expertise. You will own the product vision, roadmap, and performance ensuring the product delivers measurable client value, scales effectively, and remains differentiated in the market.
+
+This is a high-impact role for a strategic product leader who thrives at the intersection of data, technology, and market opportunity, and who is equally adept at setting vision and driving execution.
+
+At Optum, product leaders are builders and connectors - translating complex healthcare challenges into scalable, data-driven solutions that improve affordability and trust in the healthcare system. You will collaborate closely with other Product Managers and cross-functional teams to advance a unified roadmap and shared vision for building AI-powered solutions that transform healthcare payment integrity.
+
+If you thrive on turning insight into impact and working across teams to drive innovation, you'll find your next challenge here.
+
+Careers with Optum offer flexible work arrangements and individuals who live and work in the Republic of Ireland will have the opportunity to split their monthly work hours between our Dublin or Letterkenny office and telecommuting from a home-based office in a hybrid work model.
+
+Primary Responsibilities:
+
+Define the Market Vision and Product Strategy
+
+Craft and champion a clear product vision and multi-year product strategy
+Translate market needs, payer feedback, and competitive intelligence into actionable product direction
+Align product investments to deliver customer value, revenue growth, and market differentiation
+Partner with other Product Managers in the portfolio to ensure product decisions support both scalability and client success
+
+Lead Product Development and Execution
+
+Translate strategy into actionable roadmaps, well-defined requirements, and prioritized outcomes
+Collaborate with engineering, AI/ML, analytics, and operations to deliver data-driven solutions that improve accuracy, efficiency, and user experience
+Drive prioritization, balancing innovation, technical debt reduction, and operational scalability
+Ensure product launches are timely, high-quality, and aligned to go-to-market goals
+
+Measure and Optimize Product Performance
+
+Define and monitor KPIs tied to adoption, financial performance, and client outcomes
+Partner with analytics and finance teams to evaluate product ROI and inform future investments
+Use data and user feedback to continuously refine strategy, features, and market positioning
+
+Collaborate to Drive Market Growth
+
+Partner with go-to-market, sales, and marketing teams to drive product adoption and expansion across payer clients
+Support pricing, packaging, and positioning in collaboration with the Director of Product and GTM leadership
+Identify and scale client-proven innovations to the broader market
+
+Stay Ahead of Market and Industry Trends
+
+Monitor market, regulatory, and competitive shifts to identify emerging opportunities and risks
+Translate evolving market dynamics into forward-looking roadmap updates
+
+You will be rewarded and recognized for your performance in an environment that will challenge you and give you clear direction on what it takes to succeed in your role, as well as providing development for other roles you may be interested in.
+
+Required Qualifications:
+
+Proven track record owning and delivering complex products or initiatives end to end, from strategy through execution
+Proven extensive experience in product management, product strategy, and/or business transformation
+Proven experience defining product vision and roadmaps and driving measurable business and client outcomes in competitive markets
+Demonstrated ability to be comfortable influencing across multiple teams and senior stakeholders in a highly matrixed environment
+Demonstrates solid experience working within Agile software development practices, including prioritization frameworks and customer centric design
+Proven ability to operate effectively in ambiguity, translating unclear or evolving business goals into clear, prioritized product initiatives
+Demonstrated ability to use data, analytics, customer insight, and business context to guide product decisions
+Proven experience collaborating with AI/ML, analytics, and data science teams to deliver intelligent, data driven solutions
+Possesses solid analytical and systems thinking skills, with the ability to translate complex problems into clear product strategies
+Demonstrated ability to communicate with impact and confidence, demonstrating executive presence across technical and business audiences
+
+Preferred Qualifications:
+
+MBA or equivalent experience in business strategy, technology, or product leadership
+Product or Agile certifications such as CSPO, PSPO, SAFe POPM, or similar
+Proven experience in U.S. healthcare, particularly in payment integrity, claims, provider revenue cycle, risk adjustment, or quality domains
+Proven experience launching and scaling products in data intensive, cloud based, or AI enabled platforms
+Proven hands on experience integrating AI into product design, development, or ongoing management
+Demonstrated ability to extract actionable insights from large, heterogeneous datasets
+Proven experience leading or mentoring other product professionals, or partnering closely with engineering leaders to deliver outcomes (not just outputs)
+Demonstrated experience leading senior level presentations, workshops, or stakeholder forums
+Demonstrated working knowledge of Optum and/or UnitedHealth Group
+
+At UnitedHealth Group, our mission is to help people live healthier lives and make the health system work better for everyone. We believe everyone-of every race, gender, sexuality, age, location and income-deserves the opportunity to live their healthiest life. Today, however, there are still far too many barriers to good health which are disproportionately experienced by people of color, historically marginalized groups and those with lower incomes. We are committed to mitigating our impact on the environment and enabling and delivering equitable care that addresses health disparities and improves health outcomes - an enterprise priority reflected in our mission.
+
+Please note you must currently be eligible to work and remain indefinitely without any restrictions in the country to which you are making an application. Proof will be required to support your application.
+
+Diversity creates a healthier atmosphere: Optum is an Equal Employment Opportunity employer and all qualified applicants will receive consideration for employment without regard to gender, civil status, family status, sexual orientation, disability, religion, age, race, and membership of the Traveller community, or any other characteristic protected by law. Optum is a drug-free workplace.

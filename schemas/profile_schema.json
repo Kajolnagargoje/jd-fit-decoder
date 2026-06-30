@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JD Fit Decoder — User Profile Schema",
+  "description": "Structured representation of the job seeker's background, used as the basis for scoring job descriptions against. Edit profile/my_profile.json to update.",
+  "type": "object",
+  "required": ["seniority_level", "total_years_experience", "skills", "domains", "tools", "certifications"],
+  "properties": {
+    "seniority_level": {
+      "type": "string",
+      "enum": ["entry", "associate", "mid", "senior", "lead", "principal"],
+      "description": "Your self-assessed current seniority level, used to compare against seniority signals extracted from a JD."
+    },
+    "total_years_experience": {
+      "type": "number",
+      "description": "Total years of relevant professional experience (PM/BA/analyst roles)."
+    },
+    "skills": {
+      "type": "array",
+      "description": "Specific, nameable skills — not job titles. Each skill is independently matchable against a JD requirement.",
+      "items": {
+        "type": "object",
+        "required": ["name", "years", "proficiency"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Skill name, kept consistent and specific (e.g. 'SQL', 'Stakeholder management', 'A/B testing', 'Roadmapping'). Avoid vague entries like 'communication'."
+          },
+          "years": {
+            "type": "number",
+            "description": "Years of hands-on experience with this specific skill (can be less than total_years_experience)."
+          },
+          "proficiency": {
+            "type": "string",
+            "enum": ["familiar", "working", "strong", "expert"],
+            "description": "Self-assessed depth. 'familiar' = used a few times, 'expert' = could teach/mentor others."
+          },
+          "evidence": {
+            "type": "string",
+            "description": "Optional one-line proof point (e.g. 'Led SQL-based cohort analysis at BYJU'S'). Used for the score breakdown rationale, not for matching logic."
+          }
+        }
+      }
+    },
+    "domains": {
+      "type": "array",
+      "description": "Industry/domain experience (e.g. 'EdTech', 'SaaS', 'B2B', 'B2C'). Used to score domain-fit requirements.",
+      "items": {
+        "type": "object",
+        "required": ["name", "years"],
+        "properties": {
+          "name": { "type": "string" },
+          "years": { "type": "number" }
+        }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "description": "Named tools/platforms (e.g. 'Jira', 'Figma', 'Amplitude', 'Looker'). Kept separate from skills because JDs often name tools explicitly and this is a cheap, high-precision match.",
+      "items": {
+        "type": "object",
+        "required": ["name", "proficiency"],
+        "properties": {
+          "name": { "type": "string" },
+          "proficiency": {
+            "type": "string",
+            "enum": ["familiar", "working", "strong", "expert"]
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "description": "Named certifications (e.g. 'CSPO'). JDs sometimes name these explicitly as nice-to-haves or differentiators.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "year_obtained": { "type": "number" }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "description": "Optional. Only needed if a JD has hard education requirements (e.g. 'Master's degree required').",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "field": { "type": "string" }
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "description": "Used only for location/visa-requirement flags, not for skill scoring.",
+      "properties": {
+        "city": { "type": "string" },
+        "country": { "type": "string" },
+        "work_authorization": {
+          "type": "string",
+          "description": "e.g. 'EU/EEA citizen', 'visa required', 'Stamp 4' — used to flag JDs with location/eligibility blockers."
+        },
+        "open_to_relocation": { "type": "boolean" },
+        "open_to_remote": { "type": "boolean" }
+      }
+    }
+  }
+}

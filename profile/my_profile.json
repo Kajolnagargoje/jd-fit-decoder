@@ -1,0 +1,61 @@
+{
+  "seniority_level": "mid",
+  "total_years_experience": 4.5,
+  "skills": [
+    { "name": "Product management", "years": 4.5, "proficiency": "strong", "evidence": "Product Analyst -> Manager Business Growth & Strategy at BYJU'S, Product & Growth Analyst at HeyCoach" },
+    { "name": "Backlog prioritization", "years": 4.5, "proficiency": "strong", "evidence": "CSPO certified; backlog prioritization across both BYJU'S and HeyCoach roles" },
+    { "name": "PRD writing", "years": 4.5, "proficiency": "strong", "evidence": "Product specifications and test specification writing across all roles" },
+    { "name": "User story writing", "years": 4.5, "proficiency": "strong", "evidence": "Translated funnel/behavioral findings into prioritised user stories at HeyCoach and BYJU'S" },
+    { "name": "Roadmapping", "years": 4.5, "proficiency": "strong", "evidence": "Owned experimentation roadmap at HeyCoach; roadmap alignment at BYJU'S" },
+    { "name": "Stakeholder management", "years": 4.5, "proficiency": "strong", "evidence": "Presented experiment readouts and dashboards to senior leadership across both companies" },
+    { "name": "Cross-functional collaboration", "years": 4.5, "proficiency": "strong", "evidence": "Led cross-functional agile team of 6 across product, engineering, analytics at BYJU'S" },
+    { "name": "Agile/Scrum", "years": 4.5, "proficiency": "strong", "evidence": "CSPO certified (2026); facilitated sprint planning, standups, retrospectives at BYJU'S" },
+    { "name": "A/B testing", "years": 4.5, "proficiency": "strong", "evidence": "Defined and executed 12+ A/B experiments at BYJU'S; owned experimentation roadmap at HeyCoach, drove 35% increase in active users" },
+    { "name": "Hypothesis design", "years": 4.5, "proficiency": "strong", "evidence": "Hypothesis design and test specification writing at both BYJU'S and HeyCoach" },
+    { "name": "Statistical significance testing", "years": 4.5, "proficiency": "working", "evidence": "Part of A/B test analysis workflow" },
+    { "name": "Funnel analysis", "years": 4.5, "proficiency": "strong", "evidence": "Funnel and cohort analysis to identify drop-off points at HeyCoach and BYJU'S" },
+    { "name": "Cohort analysis", "years": 4.5, "proficiency": "strong", "evidence": "Cohort analysis to isolate retention and conversion drivers at BYJU'S" },
+    { "name": "Retention analysis", "years": 4.5, "proficiency": "strong", "evidence": "Retention and churn analysis across HeyCoach and BYJU'S; informed 35% active user increase" },
+    { "name": "Data analysis", "years": 4.5, "proficiency": "strong", "evidence": "MSc Business Analytics; core to all roles" },
+    { "name": "Data visualization", "years": 4.5, "proficiency": "strong", "evidence": "Built and maintained Power BI dashboards (HeyCoach) and Tableau dashboards (BYJU'S)" },
+    { "name": "KPI definition", "years": 4.5, "proficiency": "strong", "evidence": "Defined North Star metrics and success metrics across both companies" },
+    { "name": "Data storytelling", "years": 4.5, "proficiency": "strong", "evidence": "Presented weekly experiment readouts and post-release analysis to senior leadership" },
+    { "name": "Market research", "years": 2, "proficiency": "working", "evidence": "Market research and competitive analysis across 5+ product launches and two market entries at BYJU'S" },
+    { "name": "Go-to-market planning", "years": 2, "proficiency": "working", "evidence": "Go-to-market recommendations and launch enablement at BYJU'S" },
+    { "name": "SQL", "years": 4, "proficiency": "strong", "evidence": "Built and maintained SQL dashboards tracking acquisition, conversion, revenue across millions of users at BYJU'S" },
+    { "name": "Python", "years": 1, "proficiency": "familiar", "evidence": "Used for MSc thesis (classification/regression modeling), not in professional work" },
+    { "name": "R", "years": 1, "proficiency": "familiar", "evidence": "Used for MSc thesis project, not in professional work" },
+    { "name": "Written communication", "years": 4.5, "proficiency": "strong", "evidence": "" },
+    { "name": "Verbal communication", "years": 4.5, "proficiency": "strong", "evidence": "Presented weekly experiment readouts and post-release analysis to senior leadership" }
+  ],
+  "domains": [
+    { "name": "EdTech", "years": 4.5 },
+    { "name": "SaaS", "years": 4.5 }
+  ],
+  "tools": [
+    { "name": "SQL", "proficiency": "strong" },
+    { "name": "Tableau", "proficiency": "strong" },
+    { "name": "Power BI", "proficiency": "strong" },
+    { "name": "Python", "proficiency": "familiar" },
+    { "name": "R", "proficiency": "familiar" },
+    { "name": "Excel", "proficiency": "working" },
+    { "name": "Google Analytics", "proficiency": "working" },
+    { "name": "Jira", "proficiency": "working" },
+    { "name": "Confluence", "proficiency": "working" },
+    { "name": "Visio", "proficiency": "working" }
+  ],
+  "certifications": [
+    { "name": "CSPO", "year_obtained": 2026 }
+  ],
+  "education": [
+    { "degree": "Bachelor's", "field": "Technology (BTech)" },
+    { "degree": "MSc", "field": "Business Analytics" }
+  ],
+  "location": {
+    "city": "Dublin",
+    "country": "Ireland",
+    "work_authorization": "Stamp 1G - requires employer sponsorship",
+    "open_to_relocation": false,
+    "open_to_remote": true
+  }
+}

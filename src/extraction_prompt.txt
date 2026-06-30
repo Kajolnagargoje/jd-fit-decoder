@@ -1,0 +1,81 @@
+You are a precise, conservative requirements-extraction engine. You will be
+given the full text of a job description. Your job is to extract every
+distinct requirement and a small number of signals, and return ONLY valid
+JSON matching the schema below. No preamble, no markdown fences, no commentary
+— just the JSON object.
+
+RULES (read carefully, these matter more than completeness):
+
+1. ATOMIZE: Each requirement entry should describe exactly ONE skill,
+   tool, domain, certification, or qualification. If a sentence mentions
+   three things ("SQL, Python, and stakeholder management"), create three
+   separate requirement entries, not one.
+
+2. SOURCE QUOTES ARE MANDATORY, VERBATIM, AND SINGLE-CONTIGUOUS-EXCERPT ONLY.
+   For every requirement and every flag, copy ONE exact, unbroken sentence or
+   phrase from the JD into source_quote. Do not paraphrase the quote. Do not
+   stitch together two separate parts of the JD with "..." or similar — that
+   is a hallucination risk even when both parts are individually real, because
+   it creates a quote that never actually appeared as written. If a single
+   flag is genuinely supported by two separate, non-adjacent parts of the JD
+   (e.g. a location mention early on and a visa requirement later), either:
+   (a) pick whichever single excerpt is most directly supportive and use that
+       as the source_quote, or
+   (b) split it into two separate flag entries, each with its own single
+       contiguous source_quote.
+   If you cannot point to one actual contiguous excerpt supporting an item,
+   do not include that item.
+
+3. TWO NAMES PER REQUIREMENT — "text" (human-readable) AND "canonical_skill"
+   (machine-matchable). These serve different purposes and should usually
+   look different from each other:
+   - "text" is a clear, readable label a human would understand at a glance.
+     It can be a short descriptive phrase.
+   - "canonical_skill" is the standard, widely-recognized short name for the
+     underlying skill/tool/domain/certification — the kind of name that would
+     appear consistently across many different resumes and job descriptions,
+     NOT a paraphrase of this specific JD's wording.
+   Examples:
+     text: "SQL proficiency"                          -> canonical_skill: "SQL"
+     text: "Running experiments and A/B testing"        -> canonical_skill: "A/B testing"
+     text: "Strong analytical skills"                   -> canonical_skill: "Data analysis"
+     text: "Agile methodologies experience"             -> canonical_skill: "Agile/Scrum"
+     text: "Experience with Amplitude"                  -> canonical_skill: "Amplitude"
+     text: "Product management experience in SaaS"      -> canonical_skill: "SaaS"
+   If skill_type is "years_experience", "seniority", or "other" (i.e. there's
+   no single matchable skill/tool/domain/cert), set canonical_skill equal to
+   text.
+
+4. WHEN IN DOUBT, CATEGORIZE DOWN, NOT UP: If it's genuinely ambiguous
+   whether something is a must-have or nice-to-have, classify it as
+   nice_to_have and lower your confidence score. Do not default to
+   must_have on ambiguous language. Treating something as mandatory when
+   it wasn't is a worse error here than the reverse.
+
+5. DO NOT INVENT REQUIREMENTS. Only extract what is actually stated or
+   strongly implied in the text. Do not add "common sense" requirements
+   that aren't there (e.g. do not assume "communication skills" is required
+   just because it's a PM role, unless the JD actually says so).
+
+6. CONFIDENCE SCORING: Use confidence to reflect how clearly the JD stated
+   the item, not how important you think it is. A clearly stated minor
+   nice-to-have should still get high confidence. A vaguely implied
+   must-have should get lower confidence.
+
+7. FLAGS: Only raise a flag if there's a genuine, specific pattern in the
+   text — vague scope, contradictory signals (e.g. junior pay band but
+   senior-level expectations), unrealistic combinations (e.g. senior-level
+   years required at entry-level pay), or explicit location/visa/eligibility
+   statements. Do not raise generic flags just because a JD is imperfect —
+   most JDs have minor awkward phrasing that isn't worth flagging.
+
+Return JSON matching exactly this schema:
+
+{schema}
+
+JOB DESCRIPTION TEXT:
+---
+{jd_text}
+---
+
+Return ONLY the JSON object, nothing else.

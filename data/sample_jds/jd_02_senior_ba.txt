@@ -1,0 +1,38 @@
+Senior Business Analyst — AI Products
+Location: Remote (EU timezones)
+
+Company Overview
+We're building AI-powered tools for enterprise knowledge workers. Our culture is
+collaborative, fast-paced, and deeply technical — but we also value extensive
+documentation and process rigor across all teams.
+
+Role Summary
+We're seeking a Senior Business Analyst to bridge the gap between our AI/ML
+engineering team and business stakeholders. You'll be the go-to person for
+requirements gathering, process mapping, and translating technical capabilities
+into business value.
+
+Responsibilities
+- Lead requirements-gathering workshops with cross-functional stakeholders
+- Map current-state and future-state business processes
+- Translate AI/ML model capabilities and limitations into business-friendly language
+- Define acceptance criteria for new features in collaboration with engineering
+- Build and maintain dashboards to track key business metrics
+- Support change management initiatives as new AI features roll out
+
+Requirements
+- 5+ years of Business Analyst or related experience
+- Strong stakeholder management and facilitation skills
+- Hands-on experience with SQL for data analysis
+- Demonstrated ability to work with technical teams (engineering, data science)
+- Excellent documentation skills — BRDs, process maps, user stories
+- Experience working in a startup or fast-paced environment
+
+Preferred Qualifications
+- Experience in EdTech, FinTech, or other regulated/complex domains
+- Exposure to AI/ML product development lifecycle
+- Six Sigma, CBAP, or similar BA certification
+- MBA or equivalent advanced degree
+
+This is a junior-to-mid pay band role, but we need someone who can hit the
+ground running with senior-level independence and minimal oversight from day one.
