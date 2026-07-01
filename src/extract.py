@@ -56,7 +56,7 @@ def call_llm(prompt: str) -> str:
     client = anthropic.Anthropic()
     response = client.messages.create(
         model=MODEL,
-        max_tokens=4000,
+        max_tokens=8000,
         messages=[{"role": "user", "content": prompt}],
     )
     return response.content[0].text
