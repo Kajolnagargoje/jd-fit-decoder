@@ -11,15 +11,15 @@ qualification-match score with per-requirement breakdown.
 
 ## What this does
 
-1. **Extract** — an LLM reads the job description and outputs structured
+1. **Extract** - an LLM reads the job description and outputs structured
    requirements (must-have vs nice-to-have, with mandatory verbatim source
    quotes as a hallucination check)
-2. **Score** — a deterministic, non-LLM scoring engine computes a
+2. **Score** - a deterministic, non-LLM scoring engine computes a
    qualification-match score against your profile using a documented,
    weighted rubric
 
 **Core design principle:** the LLM only ever parses text into structure. It
-never computes the score. That's plain, auditable Python — see
+never computes the score. That's plain, auditable Python - see
 `eval/scoring_rubric.md` for the full rubric spec.
 
 ---
