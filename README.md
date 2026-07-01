@@ -140,4 +140,4 @@ This project was built with Claude (Anthropic) as a coding partner. Here is what
 
 Using AI as a coding partner is a real skill  knowing what to build, how to scope it, where AI judgment is reliable and where it isn't, and how to validate output are exactly the competencies this project is trying to demonstrate. Hiding the AI involvement would undermine the honest framing the tool itself is built around.
 
-The product decisions, the rubric design, the scoping tradeoffs, and the "why this, why now" story are mine. The Python is Claude's. That is an accurate description of how this was built.
+The product decisions, the rubric design, the scoping tradeoffs, and the "why this, why now" story are mine. The Python is Claude's. 
